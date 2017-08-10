@@ -1,7 +1,10 @@
+<html>
+<div class="image-container lazy" data-src="https://www.marshfieldclinic.org/Lists/BabyData/Attachments/9/BrooklynRose_1.jpg"></div>
+</html>
 <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.lazy/1.7.4/jquery.lazy.min.js"></script>
 <script>
 
-html += '<div class="image-container lazy" data-src="' + imageURL + '"></div>';
+//html += '<div class="image-container lazy" data-src="' + imageURL + '"></div>';
 
             $('.lazy').Lazy({
                 // your configuration goes here
@@ -14,3 +17,7 @@ html += '<div class="image-container lazy" data-src="' + imageURL + '"></div>';
             });
 
 </script>
+
+AFTER Lazy call...
+
+<div class="image-container lazy" style="display: block; background-image: url(&quot;https://www.marshfieldclinic.org/Lists/BabyData/Attachments/9/BrooklynRose_1.jpg&quot;);"></div>
