@@ -1,3 +1,5 @@
+<script type="text/javascript" src="https://www.marshfieldclinic.org/SiteAssets/jquery.SPServices-0.7.0.min.js"></script>
+<script>
 function getBabyPhotos(){
 $().SPServices({
        webUrl: "/",
@@ -44,3 +46,4 @@ $().SPServices({
     }
   }); 
 }
+</script>
